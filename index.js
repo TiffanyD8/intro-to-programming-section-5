@@ -84,7 +84,7 @@ function setup() {
   guessInput.disabled = false;
   resetButton.style.display = 'none';
   
-  // hide messages at startup
+  // hide messages at startup so that there are not visible
   tooHighMessage.style.display='none';
   tooLowMessage.style.display='none';
   maxGuessesMessage.style.display='none';
